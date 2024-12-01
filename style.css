@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+   
+    background-image: url(https://images.unsplash.com/photo-1518976024611-28bf4b48222e?q=80&w=1370&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containt{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 350px;
+    background:rgba(255, 218, 185, 0.5) ;
+    color: white;
+}
+
+.containt > h1{
+    text-align: center;
+    padding: 10px;
+}
+
+form{
+    padding: 0 15px;
+}
+
+form > h2{
+    font-size: 25px;
+    padding: 10px 0;
+}
+
+form > input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    background-color: transparent;
+}
+
+
+form > textarea{
+    width: 100%;
+    height: 120px;
+    font-size: 15px;
+    background-color: transparent;
+    
+}
+.star{
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+}
+
+form > button{
+       margin:10px 130px;
+       padding: 5px 10px;
+       border-radius: 5px;
+       cursor: pointer;
+}
